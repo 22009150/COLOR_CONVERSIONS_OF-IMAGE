@@ -75,6 +75,7 @@ Split and merge HSV Image
 
 
 ### iv)Access rows and columns
+
     import random
     import cv2
     image=cv2.imread('flowers.jpg',1)
@@ -110,6 +111,7 @@ Split and merge HSV Image
 
 
 ### vi) BGR and RGB to HSV and GRAY
+
 import cv2
 img = cv2.imread('flowers.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -135,6 +137,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/0fd5084b-cbc5-44f3-8baf-f0f727cebdab)
 
 ### vii) HSV to RGB and BGR
+
 import cv2
 img = cv2.imread('flowers.jpg')
 img = cv2.resize(img,(300,200))
@@ -175,6 +178,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/76cf322a-8143-40d5-a4e0-15d8bec10223)
 
 ### ix) Split and merge RGB Image
+
 import cv2
 img = cv2.imread('flowers.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -197,6 +201,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/1e2fedd2-6031-4271-a740-782e160ca6e6)
 
 ### x) Split and merge HSV Image
+
 import cv2
 img = cv2.imread("flowers.jpg",1)
 img = cv2.resize(img,(300,200))
