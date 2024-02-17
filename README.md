@@ -90,7 +90,7 @@ Split and merge HSV Image
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/7bd8d0be-b7f0-4412-800e-0b60736d544a)
 
 ### v)Cut and paste portion of image
-
+```
    import cv2
    
    image=cv2.imread('flowers.jpg',1)
@@ -106,12 +106,12 @@ Split and merge HSV Image
    cv2.waitKey(0)
    
    cv2.destroyAllWindows()
-   
+  ``` 
    ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/4ba1e621-10e5-4edc-bb2c-7538e256fbeb)
 
 
 ### vi) BGR and RGB to HSV and GRAY
-
+```
 import cv2
 img = cv2.imread('flowers.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -131,13 +131,13 @@ cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/86462163-2562-4d07-8abd-5967fbd5c7ab)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/e32f90e4-e7f2-44b5-8ad2-915ead5ac454)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/0fd5084b-cbc5-44f3-8baf-f0f727cebdab)
 
 ### vii) HSV to RGB and BGR
-
+```
 import cv2
 img = cv2.imread('flowers.jpg')
 img = cv2.resize(img,(300,200))
@@ -153,12 +153,13 @@ cv2.imshow('HSV2RGB',BGR)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/25d975fa-86ab-4c76-8c4a-12948ea2c379)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/bc98ce7f-35fc-4828-8a8a-02173162cd31)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/226e8b65-e732-4dda-a582-6b9106cb7927)
 
 ### viii) RGB and BGR to YCrCb
+```
 import cv2
 img = cv2.imread('flowers.jpg')
 img = cv2.resize(img,(300,200))
@@ -172,13 +173,13 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/4e210ce0-1b0b-4105-b397-74aa27d4cfcc)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/d673661e-08eb-4b6d-90ed-bbdb1e4ddfbe)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/76cf322a-8143-40d5-a4e0-15d8bec10223)
 
 ### ix) Split and merge RGB Image
-
+```
 import cv2
 img = cv2.imread('flowers.jpg',1)
 img = cv2.resize(img,(300,200))
@@ -196,12 +197,12 @@ cv2.imshow('Merged RGB image',merged)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/2228539d-2350-40c0-900f-778ed05a2c52)
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/1e2fedd2-6031-4271-a740-782e160ca6e6)
 
 ### x) Split and merge HSV Image
-
+```
 import cv2
 img = cv2.imread("flowers.jpg",1)
 img = cv2.resize(img,(300,200))
@@ -219,7 +220,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-
+```
 
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/4b9a326f-c0d0-4100-a630-2c9ea0b94c07)
 
