@@ -70,7 +70,8 @@ Split and merge HSV Image
     image=cv2.imread('flowers.jpg',1)
     print(image.shape)
     
-    ![img3](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/eb26a8d8-1eca-469f-9a8c-93fea2ffcf27)
+    
+![img3](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/18d27856-71e8-4948-bc62-5d226b6d4806)
 
 
 ### iv)Access rows and columns
@@ -88,13 +89,21 @@ Split and merge HSV Image
 ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/7bd8d0be-b7f0-4412-800e-0b60736d544a)
 
 ### v)Cut and paste portion of image
+
    import cv2
+   
    image=cv2.imread('flowers.jpg',1)
+   
    image=cv2.resize(image,(400,400))
+   
    tag =image[150:200,110:160]
+   
    image[110:160,150:200] = tag
+   
    cv2.imshow('partimage1',image)
+   
    cv2.waitKey(0)
+   
    cv2.destroyAllWindows()
    
    ![image](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/4ba1e621-10e5-4edc-bb2c-7538e256fbeb)
