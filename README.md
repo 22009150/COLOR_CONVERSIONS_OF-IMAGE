@@ -70,8 +70,9 @@ Split and merge HSV Image
     image=cv2.imread('flowers.jpg',1)
     print(image.shape)
     
-    
-![img3](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/18d27856-71e8-4948-bc62-5d226b6d4806)
+
+![img3](https://github.com/22009150/COLOR_CONVERSIONS_OF-IMAGE/assets/118708624/b6ce2549-6edc-4f10-91ab-25f377149262)
+
 
 
 ### iv)Access rows and columns
